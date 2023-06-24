@@ -23,7 +23,7 @@ const ShortenedLink = (props: Props) => {
       <div className="flex gap-3">
         <a
           href={shortenedLink}
-          className="my-1 block border-b border-b-amber-100 font-bold selection:bg-amber-100 hover:text-amber-100"
+          className="my-1 block border-b border-b-sky-300 font-bold selection:bg-sky-300 hover:text-sky-300"
           target="_blank"
         >
           {shortenedLink}

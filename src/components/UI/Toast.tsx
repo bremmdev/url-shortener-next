@@ -22,7 +22,7 @@ const Toast = (props: Props) => {
 
   return (
     <div
-      className={`fixed bottom-12 left-6 right-6 z-10 mx-auto flex animate-slideIn items-center gap-4 rounded-md bg-amber-100 px-4 py-3 text-left text-sm text-slate-900 md:max-w-xl md:px-6 md:text-base`}
+      className={`fixed bottom-12 left-6 right-6 z-10 mx-auto flex animate-slideIn items-center gap-4 rounded-md bg-sky-300 px-4 py-3 text-left text-sm text-slate-900 md:max-w-xl md:px-6 md:text-base`}
     >
       <div>
         <p>{message}</p>

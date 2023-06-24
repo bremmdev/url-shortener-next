@@ -36,8 +36,8 @@ const ShortCount = () => {
         className="hidden md:-mt-3 md:inline"
       />
       Already shortened{" "}
-      <span className="font extra-bold text-xl text-amber-100">{count}</span>{" "}
-      urls<span className="text-amber-100">.</span>
+      <span className="font extra-bold text-xl text-sky-300">{count}</span> urls
+      <span className="text-sky-300">.</span>
     </div>
   ) : (
     <div className="h-7">&nbsp;</div>

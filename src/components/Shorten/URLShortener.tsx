@@ -101,7 +101,7 @@ const URLShortener = () => {
             placeholder="Enter URL"
             value={inputUrl}
             id="url"
-            className="w-full rounded-md border border-slate-800 bg-inherit px-4 py-2 placeholder:opacity-50 focus:border-amber-100 focus:outline-none"
+            className="w-full rounded-md border border-slate-800 bg-inherit px-4 py-2 placeholder:opacity-50 focus:border-sky-300 focus:outline-none"
             onChange={(e) => setInputUrl(e.target.value)}
           />
           {errors.url && (
@@ -124,7 +124,7 @@ const URLShortener = () => {
             />
             <div
               id="tooltip"
-              className="hidden absolute rounded-lg bg-amber-100 p-3 sm:p-4 text-slate-950 -top-24 left-[10%] right-[10%] sm:left-[15%] sm:right-[15%] text-xs xs:text-sm"
+              className="hidden absolute rounded-lg bg-sky-300 p-3 sm:p-4 text-slate-950 -top-24 left-[10%] right-[10%] sm:left-[15%] sm:right-[15%] text-xs xs:text-sm"
             >
               Add a custom ending (e.g. sha.bremm.dev/go/custom_tag instead of
               sha.bremm.dev/go/l6HYuH)
@@ -136,7 +136,7 @@ const URLShortener = () => {
             placeholder="Enter custom ending"
             value={customUrl}
             id="customUrl"
-            className="w-full max-w-md rounded-md border border-slate-800 bg-inherit px-4 py-2 placeholder:opacity-50 focus:border-amber-100 focus:outline-none"
+            className="w-full max-w-md rounded-md border border-slate-800 bg-inherit px-4 py-2 placeholder:opacity-50 focus:border-sky-300 focus:outline-none"
             onChange={(e) => setCustomUrl(e.target.value)}
           />
 
@@ -147,7 +147,7 @@ const URLShortener = () => {
           )}
 
           <button
-            className="focus-visible:ring-ring ring-offset-background my-4 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-slate-900 transition-colors hover:bg-amber-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+            className="focus-visible:ring-ring ring-offset-background my-4 inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-slate-900 transition-colors hover:bg-sky-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
             type="submit"
             disabled={isShorting || inputUrl.length === 0}
           >
